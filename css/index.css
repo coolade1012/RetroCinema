@@ -1,0 +1,40 @@
+h1 {
+page-break-before: always;
+}
+.test {
+            position: relative;
+/*            top: 50px;*/
+/*            height: 200px;*/
+            overflow: auto;
+            font-size: 28px;
+        }
+
+        #section1 {
+/*            color: #fff;*/
+            background-color: #1E88E5;
+        }
+
+        #section2 {
+/*            color: #fff;*/
+            background-color: #673ab7;
+        }
+
+        #section3 {
+/*            color: #fff;*/
+            background-color: #ff9800;
+        }
+
+
+        #section4{
+/*            color: #fff;*/
+            background-color: aqua;
+        }
+        #section41 {
+/*            color: #fff;*/
+            background-color: #00bcd4;
+        }
+
+        #section42 {
+/*            color: #fff;*/
+            background-color: #009688;
+        }
