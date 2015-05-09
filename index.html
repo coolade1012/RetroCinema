@@ -1,12 +1,55 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
+<head>
+    <title>Retro Cinema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
 
-    </head>
+<body>
+    <!--Position "Scales" with Sreen Size-->
+    <div class="container">
+       <button type="button" class="btn btn-primary btn-block">Button Container</button>
 
-    <body>
+        <h1>My First Bootstrap Page</h1>
+        <p>This is some text.</p>
+    </div>
+    <button type="button" class="btn btn-primary btn-block">Button No Container</button>
 
-    </body>
+    <!--Position is locked but text will adjust to screen size still-->
+    <div class="container-fluid">
+       <button type="button" class="btn btn-primary btn-block">Button Container-fluid</button>
+
+        <h1>My First Bootstrap Page</h1>
+        <p>This is some text.</p>
+        <div class="" row>
+            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+            <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+            <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Responsive Embed</h2>
+
+
+
+        <!-- 4:3 aspect ratio -->
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+        </div>
+    </div>
+
+</body>
 
 </html>
