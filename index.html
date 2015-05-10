@@ -5,50 +5,116 @@
     <title>Retro Cinema</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!--bootstrap styleshhet in use is the SuperHero theme found on bootswatch.com-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <!--Position "Scales" with Sreen Size-->
-    <div class="container">
-       <button type="button" class="btn btn-primary btn-block">Button Container</button>
 
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
-    </div>
-    <button type="button" class="btn btn-primary btn-block">Button No Container</button>
 
-    <!--Position is locked but text will adjust to screen size still-->
-    <div class="container-fluid">
-       <button type="button" class="btn btn-primary btn-block">Button Container-fluid</button>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!--COLLAPSED LIST IMAGE/BUTTON(SMALL/MOBILE DISPLAYS)-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
-        <div class="" row>
-            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-            <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
-            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                <!--TITLE-->
+                <a class="navbar-brand" href="index.html">Retro Cinema</a>
+            </div>
+
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <!--NEWS-->
+                        <li><a href="#section1">News</a>
+                        </li>
+
+                        <!--EVENTS DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Events<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--UPCOMING EVENTS-->
+                                <li><a href="#section1">Upcoming Events</a>
+                                </li>
+                                <!--PARTIES/FIELD TRIPS-->
+                                <li><a href="Events.html#Party">Parties/Field Trips</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--SHOWTIMES DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Showtimes<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--NOW SHOWING-->
+                                <li><a href="#section2">Now Showing</a>
+                                </li>
+                                <!--COMING SOON-->
+                                <li><a href="Showtimes.html#ComingSoon">Coming Soon</a>
+                                </li>
+                                <!--SATURDAY KID'S FILM-->
+                                <li><a href="Showtimes.html#KidFilm">Saturday Kid's Film</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--TICKITS-->
+                        <li><a href="Tickets.html">Tickets</a>
+                        </li>
+
+                        <!--CONCESSIONS-->
+                        <li><a href="#section3">Concessions</a>
+                        </li>
+
+                        <!--ABOUT US DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">About Us<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--UPCOMING EVENTS-->
+                                <li><a href="#section4">Our Story</a>
+                                </li>
+                                <li><a href="#section41">Employment</a>
+                                </li>
+                                <li><a href="#section42">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </div>
+    </nav>
+    <!--/NAVIGATION BAR-->
+    <div data-spy="scroll" data-target=".navbar" data-offset="12" class="test">
 
-        <div class="row">
-            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-            <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
+
+        <div id="section1">
+            <div class="intro-header">
+                <div class="container-fluid">
+                    </br>
+                    <h1>Welcome to</h1>
+                    <h1>Retro Cinema-Packett</h1>
+                    <p>2270 US Highway 74A Byp, Forest City, NC 28043</p>
+                    <!--Buttons for Going to NEWS, FACEBOOK, FANDANGO, and
+                    -->
+                    <a href="News.html" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-log-in"></span>  Continue to Site</a>
+                    </br>
+                    <a href="https://www.facebook.com/retrocinema.packett" class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span>  Facebook</a>
+                    <a href="http://www.fandango.com/retrocinema4_aaxlm/theaterpage" class="btn btn-primary"><span class="glyphicon glyphicon-film"></span>  Fandango</a>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div class="container">
-        <h2>Responsive Embed</h2>
-
-
-
-        <!-- 4:3 aspect ratio -->
-        <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
-        </div>
-    </div>
 
 </body>
 
