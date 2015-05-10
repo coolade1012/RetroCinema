@@ -1,26 +1,13 @@
-body {
-    background: url(../img/movie_theatre.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 .test {
+    padding-top: 50px;
     position: relative;
     overflow: auto;
     font-size: 28px;
 }
 
-.intro-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #2b3e50;
-}
-.intro-header h1, .intro-header p{
-    text-shadow: 1px 1px 10px #df6919;
-}
+
 
 #section1 {
-    top: -15px;
+    top: -10px;
     position: relative;
-/*    background-color: #1E88E5;*/
 }
