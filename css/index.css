@@ -20,5 +20,7 @@ body {
 }
 
 #section1 {
+    top: -15px;
+    position: relative;
 /*    background-color: #1E88E5;*/
 }
