@@ -48,3 +48,7 @@ td {
     background-image: url(../img/under-construction.png);
     background-size: cover;
 }
+
+#Contact h2 {
+    text-indent: 50px;
+}
