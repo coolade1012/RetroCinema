@@ -1,15 +1,17 @@
-body .index {
+body.splash {
     background: url(../img/movie_theatre.jpg) no-repeat center center;
-    background-size: cover;
+    background-size:cover;
+    background-color: #2b3e50;
 }
 
 .test-index{
+    padding-top: 50px;
     position: relative;
     overflow: auto;
     font-size: 28px;
 }
 
-.test-news {
+.test-news, .test-concessions {
     padding-top: 50px;
     position: relative;
     overflow: auto;
@@ -26,7 +28,14 @@ body .index {
     text-shadow: 1px 1px 10px #df6919;
 }
 
-#section1 {
+#splash {
     top: -15px;
     position: relative;
+}
+
+th{
+font-size:large;
+}
+td{
+font-size: larger;
 }
