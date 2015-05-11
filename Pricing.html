@@ -1,0 +1,341 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Concessions-Retro Cinema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap styleshhet in use is the SuperHero theme found on bootswatch.com-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!--COLLAPSED LIST IMAGE/BUTTON(SMALL/MOBILE DISPLAYS)-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--TITLE-->
+                <a class="navbar-brand" href="index.html">Retro Cinema</a>
+            </div>
+
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <!--NEWS-->
+                        <li><a href="News.html">News</a>
+                        </li>
+
+                        <!--EVENTS DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Events<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--UPCOMING EVENTS-->
+                                <li><a href="Events.html#Upcoming">Upcoming Events</a>
+                                </li>
+                                <!--PARTIES/FIELD TRIPS-->
+                                <li><a href="Events.html#Party">Parties/Field Trips</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--SHOWTIMES DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Showtimes<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--NOW SHOWING-->
+                                <li><a href="Showtimes.html#NowShowing">Now Showing</a>
+                                </li>
+                                <!--COMING SOON-->
+                                <li><a href="Showtimes.html#ComingSoon">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--PRICING DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Pricing<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--TICKETS-->
+                                <li><a href="Pricing.html#Tickets">Tickets</a>
+                                </li>
+                                <!--CONCESSIONS-->
+                                <li><a href="Pricing.html#Concessions">Concessions</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--ABOUT US DROPDOWN-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">About Us<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--UPCOMING EVENTS-->
+                                <li><a href="AboutUs.html#Story">Our Story</a>
+                                </li>
+                                <li><a href="AboutUs.html#Employment">Employment</a>
+                                </li>
+                                <li><a href="AboutUs.html#Contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--/NAVIGATION BAR-->
+
+    <div data-spy="scroll" data-target=".navbar" data-offset="12" class="test-concessions">
+        <div id="Tickets" class="container">
+            <div class="row">
+                <div class="container">
+                    <h1>Ticket Prices</h1>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-6">
+                        <div class="well well-sm">
+                            <h1>Admission</h1>
+                            <hr>
+                            <div class="table-responsive">
+                                <table class="table table-hover table-condensed table-bordered">
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Children (Ages 3 and Younger)</td>
+                                            <td>Free</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Children (Ages 4 to 10)</td>
+                                            <td>$7.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adult-Matinee (Shows before 5 pm EST)</td>
+                                            <td>$8.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adult-Regular</td>
+                                            <td>$9.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Senior (Age 65 and Older)</td>
+                                            <td>$7.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3"></div>
+
+                </div>
+            </div>
+            <hr>
+            <div id="Concessions" class="container">
+                <div class="row">
+                    <div class="container">
+                        <h1>Concessions</h1>
+                        <div class="col-sm-6">
+                            <div class="well well-sm">
+                                <h1>Drinks</h1>
+                                <hr>
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-condensed table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Size</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Bottled Water</td>
+                                                <td>$2.75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Small (24oz)</td>
+                                                <td>$3.75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Medium (32oz)</td>
+                                                <td>$4.75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Large* (44oz)</td>
+                                                <td>$5.25</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-condensed table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Choices</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pepsi</td>
+                                                <td>Diet Pepsi</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mountain Dew</td>
+                                                <td>Diet Mountain Dew</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dr. Pepper</td>
+                                                <td>Diet Dr. Pepper</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sierra Mist</td>
+                                                <td>Pink Lemonade</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cheerwine</td>
+                                                <td>Water</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="well well-sm">
+                                <h1>Food</h1>
+                                <hr>
+                                <div class="table-responsive">
+                                    <h3>Popcorn</h3>
+                                    <table class="table table-hover table-condensed table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Size</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Small</td>
+                                                <td>$4.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Medium</td>
+                                                <td>$5.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Large*</td>
+                                                <td>$6.25</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="table-responsive">
+                                    <h3>All Candy $3.75</h3>
+                                    <table class="table table-condensed table-bordered">
+
+                                        <thead>
+
+                                            <tr>
+                                                <th>Choices</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>M&amp;M's</td>
+                                                <td>Skittles</td>
+                                                <td>Butterfinger Bites</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mike and Ike's</td>
+                                                <td>Sour Punch Straws</td>
+                                                <td>AirHeads</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Goobers</td>
+                                                <td>Twizzlers</td>
+                                                <td>Reese's Pieces</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Raisenets</td>
+                                                <td>Kazoozles</td>
+                                                <td>Milk Duds</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Buncha Crunch</td>
+                                                <td>Sour Patch Kids</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="well well-sm">
+                            <h1>Combos</h1>
+                            <hr>
+                            <div class="table-responsive">
+                                <table class="table table-hover table-condensed table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Number</th>
+                                            <th>Price</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Combo 1</td>
+                                            <td>$10.50</td>
+                                            <td>One Small Drink, Small Popcorn and Candy</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Combo 2</td>
+                                            <td>$14.00</td>
+                                            <td>One Large* Drink, Small Popcorn and Candy</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Combo 3</td>
+                                            <td>$15.00</td>
+                                            <td>Two Large* Drink, One Large* Popcorn</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Combo 4</td>
+                                            <td>$17.50</td>
+                                            <td>Two Large* Drink, One Large* Popcorn and Candy</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kiddie Combo</td>
+                                            <td>$5.00</td>
+                                            <td>Child's Tray-Kiddie Drink, Popcorn, and Kiddie Candy</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                            <p>* = Free refills</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
