@@ -1,9 +1,16 @@
-body {
+body .index {
     background: url(../img/movie_theatre.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.test {
+.test-index{
+    position: relative;
+    overflow: auto;
+    font-size: 28px;
+}
+
+.test-news {
+    padding-top: 50px;
     position: relative;
     overflow: auto;
     font-size: 28px;
@@ -22,5 +29,4 @@ body {
 #section1 {
     top: -15px;
     position: relative;
-/*    background-color: #1E88E5;*/
 }
