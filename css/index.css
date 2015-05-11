@@ -1,17 +1,18 @@
 body.splash {
     background: url(../img/movie_theatre.jpg) no-repeat center center;
-    background-size:cover;
+    background-size: cover;
     background-color: #2b3e50;
 }
 
-.test-index{
+.test-index {
     padding-top: 50px;
     position: relative;
     overflow: auto;
     font-size: 28px;
 }
 
-.test-news, .test-concessions {
+.test-news,
+.test-concessions {
     padding-top: 50px;
     position: relative;
     overflow: auto;
@@ -24,7 +25,9 @@ body.splash {
     text-align: center;
     color: #2b3e50;
 }
-.intro-header h1, .intro-header p{
+
+.intro-header h1,
+.intro-header p {
     text-shadow: 1px 1px 10px #df6919;
 }
 
@@ -33,9 +36,15 @@ body.splash {
     position: relative;
 }
 
-th{
-font-size:large;
+th {
+    font-size: large;
 }
-td{
-font-size: larger;
+
+td {
+    font-size: larger;
+}
+
+.Events {
+    background-image: url(../img/under-construction.png);
+    background-size: cover;
 }
