@@ -46,6 +46,7 @@ td {
 
 .Events {
     background-image: url(../img/under-construction.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
